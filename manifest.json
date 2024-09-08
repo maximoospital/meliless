@@ -1,6 +1,6 @@
 {
   "name": "Meliless",
-  "description": "Remueve resultados de MercadoLibre de Google.",
+  "description": "Remueve resultados de MercadoLibre de Google. (Al menos que lo busques aproposito)",
   "version": "1.0",
   "permissions": ["activeTab", "scripting"],
   "icons": {

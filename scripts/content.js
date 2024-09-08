@@ -6,9 +6,9 @@ if(document.title.includes("-site:mercadolibre.com.*")){
 // Una vez cargada la pagina, lo remueve de lo visual lol
 let searchValue = document.getElementsByTagName("textarea")[0].value;
 let searchDisplay = document.getElementsByTagName("textarea")[0].innerText;
-if(searchValue.includes("-site:mercadolibre.com.*")){
-    let newSearchValue = searchValue.replace("-site:mercadolibre.com.*", "");
+if(searchValue.includes("-site:mercadolibre.com.* -site:mercadolibre.cl")){
+    let newSearchValue = searchValue.replace("-site:mercadolibre.com.* -site:mercadolibre.cl", "");
     document.getElementsByTagName("textarea")[0].value = newSearchValue;
-    let newDisplay = searchDisplay.replace("-site:mercadolibre.com.*", "");
-    document.getElemenysByTagName("textarea")[0].innerText = newDisplay;
+    let newDisplay = searchDisplay.replace("-site:mercadolibre.com.* -site:mercadolibre.cl", "");
+    document.getElementsByTagName("textarea")[0].innerText = newDisplay;
 }
